@@ -9,7 +9,7 @@ cask "juno" do
   homepage "https://github.com/mapldx/juno"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Juno.app"
   binary "#{appdir}/Juno.app/Contents/Helpers/juno"
